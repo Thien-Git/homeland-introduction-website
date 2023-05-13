@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    height: 200px;
+    background-color: rgba(165, 42, 42, 0.212);
+    color: white;
+    text-align: center;
+    font-size: 3em;
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    padding-top: 10px;
+    background-color: rgba(0, 0, 255, 0.103);
+    color: white;
+}
+
+.full-page {
+    background-image: url(../../../page1/img/di-san-van-hoa-cong-chieng-tay-nguyen.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 1px;
+}
+
+/* .link {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+.link-list {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    list-style-type: none;
+}
+
+.link-list-item {
+    padding-right: 20px;
+    color: white;
+}
+
+.link-list-item a{
+    color: white;
+}
+
+.footer {
+    font-weight: 300;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+    background-color: #4a4a4a5b;;
+
+}
+
+.footer > p {
+    margin: 0rem 4rem;
+    text-align: center;
+    color: rgb(255, 254, 254);
+}
+
+@media (max-width: 984px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer > p {
+        margin: 0.2rem;
+        text-align: center;
+    }
+
+    .title {
+        height: 100vh;
+    }
+
+}
